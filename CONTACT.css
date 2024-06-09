@@ -1,0 +1,53 @@
+body {
+    height:100%;
+    width: 100%;
+    margin:0;
+    position: inline;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    text-align: left;
+    color: #0f0f0f;
+    background-color: #fbfaee;
+
+}
+
+
+
+/* DAGGER */ 
+
+
+.daggergrid {
+    display:grid;
+    grid-template-columns:auto auto;
+}
+
+.dagger {
+    position: fixed;
+    right: 30px;
+    top:0px;  
+    z-index: 999;
+}
+
+.links {
+   font-size: 12pt; 
+   font-weight: 600;
+   text-align: right;
+   padding-top: 36px;
+   padding-right: 15px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #0f0f0f;
+    line-height: 2.25;
+    
+}
+
+
+.doubledagger {
+    font-size: 100px;
+    font-weight: 600;
+    cursor:pointer;
+    color: #0f0f0f;
+}
